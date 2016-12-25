@@ -29,6 +29,8 @@ public class MD5Util {
         return new BigInteger(1, md.digest()).toString(16);
     }
 
+	
+	
     public static void main(String[] args) throws Exception {
         String afterMD5 = MD5Util.getMD5("hello" + "654551");
         System.out.println(afterMD5);
